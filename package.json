@@ -1,8 +1,13 @@
 {
   "name": "@inkdes/email-studio",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "InkDes Email Studio client with render and deliver APIs",
-  "keywords": ["inkdes", "email", "studio", "client"],
+  "keywords": [
+    "inkdes",
+    "email",
+    "studio",
+    "client"
+  ],
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -30,7 +35,8 @@
     "build": "tsup src/index.ts --dts --format esm,cjs --out-dir dist --clean",
     "dev": "tsup src/index.ts --watch --dts --format esm,cjs --out-dir dist",
     "prepublishOnly": "npm run build",
-    "release:dry-run": "npm pack --dry-run"
+    "release:dry-run": "npm pack --dry-run",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "tsup": "^8.3.0",
@@ -38,4 +44,3 @@
     "rimraf": "^6.0.1"
   }
 }
-
