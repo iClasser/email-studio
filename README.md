@@ -1,11 +1,11 @@
-# @inkdes/email-studio
+# @iclasser/email-studio
 
 InkDes Email Studio client for rendering and delivering emails via InkDes.
 
 ## Install
 
 ```bash
-npm install @inkdes/email-studio
+npm install @iclasser/email-studio
 ```
 
 ## Setup
@@ -21,7 +21,7 @@ Optional:
 ## Usage
 
 ```ts
-import InkDesEmailStudio from '@inkdes/email-studio';
+import InkDesEmailStudio from '@iclasser/email-studio';
 
 const client = new InkDesEmailStudio({
   apiKey: process.env.INKDES_API_KEY!,
