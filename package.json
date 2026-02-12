@@ -1,6 +1,6 @@
 {
   "name": "@iclasser/email-studio",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "InkDes Email Studio client with render and deliver APIs",
   "keywords": [
     "inkdes",
